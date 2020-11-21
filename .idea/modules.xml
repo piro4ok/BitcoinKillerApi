@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/BitcoinKillerApi.iml" filepath="$PROJECT_DIR$/.idea/BitcoinKillerApi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cryptography/cryptography.iml" filepath="$PROJECT_DIR$/cryptography/cryptography.iml" />
       <module fileurl="file://$PROJECT_DIR$/store/store.iml" filepath="$PROJECT_DIR$/store/store.iml" />
     </modules>
   </component>
