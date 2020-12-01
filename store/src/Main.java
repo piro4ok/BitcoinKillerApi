@@ -8,11 +8,6 @@ import java.util.ArrayList;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
-//        String get_by_key_res
-//                =bucket.get("block_hash1").content().toString();
-//        Gson g=new Gson();
-//        Map myMap = g.fromJson(get_by_key_res, Map.class);
         BlockChain blockChain
                 = new BlockChain("Administrator", "KBRS007");
         GetBlockResult get_block = blockChain.getBlock("block2_hash");
