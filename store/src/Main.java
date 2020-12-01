@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) {
         BlockChain blockChain
                 = new BlockChain("Administrator", "KBRS007");
-        GetBlockResult get_block = blockChain.getBlock("block2_hash");
+        GetBlockResult get_block = blockChain.getBlock("block7_hash");
         Block block = new Block() {
             {
                 prev_hash = "block1_hash";
@@ -61,7 +61,7 @@ public class Main {
 
             }
         };
-        AddBlockResult result = blockChain.addBlock(block, "block2_hash");
+        AddBlockResult result = blockChain.addBlock(block, "block7_hash");
         System.out.println(result.getError_message());
     }
 }
